@@ -11,7 +11,7 @@ Em uma empresa de telefonia existe um software responsável pela tarifação das
 <br><br>
 <b>Noturna - entre 22h00 e 6h00</b> :
 <br>
-&nbsp;&nbsp;&nbsp;* Taxa permanente: R $ 0,36
+&nbsp;&nbsp;&nbsp;* Taxa permanente: R $ 0,36<br>
 &nbsp;&nbsp;&nbsp;* Taxa de ligação / minuto: R $ 0,00
 Classificar as ligações por número de origem e agrupá-las com o valor total das ligações feitas por esse número. Complete o método classify_by_phone_number que recebe por parâmetro um relatório em forma de lista de dicionários. Os horários de início de fim das ligações estão no formato timestamp e os números de telefone no formato de strings, conforme a estrutura abaixo.
 <br><br>
