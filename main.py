@@ -57,8 +57,6 @@ def classify_by_phone_number(records):
     records = [{"source": record, "total": records_tarifado[record]} for record in records_tarifado]
     records.sort(reverse=True, key=lambda tarifa: tarifa["total"])
 
-    print(records)
-
     return records
 
 
